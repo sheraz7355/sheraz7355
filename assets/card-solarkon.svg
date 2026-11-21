@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 216" width="480" height="216" role="img" aria-label="Solarkon: Website for a solar energy company, where customers request service online.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171127"/><stop offset="1" stop-color="#0B0912"/></linearGradient>
+  <radialGradient id="glow" cx="0.85" cy="0.05" r="0.75"><stop offset="0" stop-color="#F2A93B" stop-opacity="0.30"/><stop offset="1" stop-color="#F2A93B" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity="0.055"/></pattern>
+  <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#EBDDFF"/><stop offset="1" stop-color="#9B7BD0"/></linearGradient>
+  <linearGradient id="agent" x1="0" x2="1"><stop offset="0" stop-color="#6E47A6"/><stop offset="1" stop-color="#8F63A7"/></linearGradient>
+</defs>
+<style>
+  text { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .blink { animation: blink 1.6s ease-in-out infinite; }
+  @keyframes blink { 50% { opacity: .25; } }
+  
+  .bar { transform-box: fill-box; transform-origin: center; animation: wave 1.2s ease-in-out infinite; }
+  @keyframes wave { 0%,100% { transform: scaleY(.45); } 50% { transform: scaleY(1); } }
+</style>
+<rect x="1" y="1" width="478" height="214" rx="20" fill="url(#bg)" stroke="#2E2448"/>
+<rect x="1" y="1" width="478" height="214" rx="20" fill="url(#dots)"/>
+<rect x="1" y="1" width="478" height="214" rx="20" fill="url(#glow)"/>
+
+<rect x="28" y="28" width="52" height="52" rx="14" fill="#F2A93B" fill-opacity="0.16" stroke="#F2A93B" stroke-opacity="0.55"/>
+<circle cx="54" cy="54" r="8" fill="#F2A93B"/><path d="M67.0 54.0 L72.0 54.0" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/><path d="M63.2 63.2 L66.7 66.7" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/><path d="M54.0 67.0 L54.0 72.0" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/><path d="M44.8 63.2 L41.3 66.7" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/><path d="M41.0 54.0 L36.0 54.0" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/><path d="M44.8 44.8 L41.3 41.3" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/><path d="M54.0 41.0 L54.0 36.0" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/><path d="M63.2 44.8 L66.7 41.3" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/>
+<text x="98" y="47" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#F2A93B">WEB  ·  BUSINESS</text>
+<text x="98" y="75" font-size="25" font-weight="700" fill="#F4F0FF">Solarkon</text>
+<text x="452" y="48" font-size="18" text-anchor="end" fill="#8D84A8">&#8599;</text>
+<text x="28" y="120" font-size="15" fill="#B7AFCB">Website for a solar energy company, where</text>
+<text x="28" y="143" font-size="15" fill="#B7AFCB">customers request service online.</text>
+<rect x="28" y="164" width="187" height="28" rx="14" fill="#1B1528" stroke="#2E2448"/>
+<circle class="blink" cx="45" cy="178" r="4.5" fill="#4ADE80"/>
+<text x="58" y="183" font-size="12.5" font-weight="600" letter-spacing="0.5" fill="#D8CCF2">LIVE  ·  solarkon.org</text>
+</svg>

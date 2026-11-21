@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Muhammad Sheraz. I build AI agents that do the work.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171127"/><stop offset="1" stop-color="#0B0912"/></linearGradient>
+  <radialGradient id="glow" cx="0.85" cy="0.05" r="0.75"><stop offset="0" stop-color="#8F63A7" stop-opacity="0.42"/><stop offset="1" stop-color="#8F63A7" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity="0.055"/></pattern>
+  <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#EBDDFF"/><stop offset="1" stop-color="#9B7BD0"/></linearGradient>
+  <linearGradient id="agent" x1="0" x2="1"><stop offset="0" stop-color="#6E47A6"/><stop offset="1" stop-color="#8F63A7"/></linearGradient>
+</defs>
+<style>
+  text { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .blink { animation: blink 1.6s ease-in-out infinite; }
+  @keyframes blink { 50% { opacity: .25; } }
+  
+  .bar { transform-box: fill-box; transform-origin: center; animation: wave 1.1s ease-in-out infinite; }
+  @keyframes wave { 0%,100% { transform: scaleY(.35); } 50% { transform: scaleY(1); } }
+  .m { opacity: 0; animation-duration: 12s; animation-iteration-count: infinite; animation-timing-function: ease-out; }
+  .m1 { animation-name: m1; } .m2 { animation-name: m2; } .m3 { animation-name: m3; } .m4 { animation-name: m4; } .typing { animation-name: ty; }
+  @keyframes m1 { 0%,3% { opacity: 0; transform: translateY(8px); } 8%,90% { opacity: 1; transform: translateY(0); } 96%,100% { opacity: 0; } }
+  @keyframes ty { 0%,11% { opacity: 0; } 13%,24% { opacity: 1; } 26%,100% { opacity: 0; } }
+  @keyframes m2 { 0%,24% { opacity: 0; transform: translateY(8px); } 29%,90% { opacity: 1; transform: translateY(0); } 96%,100% { opacity: 0; } }
+  @keyframes m3 { 0%,42% { opacity: 0; transform: translateY(8px); } 47%,90% { opacity: 1; transform: translateY(0); } 96%,100% { opacity: 0; } }
+  @keyframes m4 { 0%,60% { opacity: 0; transform: translateY(8px); } 66%,90% { opacity: 1; transform: translateY(0); } 96%,100% { opacity: 0; } }
+  .dot { animation: hop 1s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes hop { 0%,60%,100% { transform: translateY(0); opacity: .5; } 30% { transform: translateY(-4px); opacity: 1; } }
+</style>
+<rect x="1" y="1" width="998" height="338" rx="20" fill="url(#bg)" stroke="#2E2448"/>
+<rect x="1" y="1" width="998" height="338" rx="20" fill="url(#dots)"/>
+<rect x="1" y="1" width="998" height="338" rx="20" fill="url(#glow)"/>
+
+<text x="48" y="74" font-size="14" font-weight="600" letter-spacing="4" fill="#B9A8D9">MUHAMMAD SHERAZ</text>
+<text x="48" y="134" font-size="46" font-weight="700" fill="#F4F0FF">I build AI agents</text>
+<text x="48" y="188" font-size="46" font-weight="700" fill="url(#hl)">that do the work.</text>
+<text x="48" y="230" font-size="16" fill="#B7AFCB">Voice and chat agents, business automations, built for production.</text>
+<rect x="48" y="262" width="98" height="30" rx="15" fill="#1B1528" stroke="#3A2D57"/><circle cx="62" cy="277" r="3.5" fill="#9B7BD0"/><text x="72" y="282" font-size="13" fill="#D8CCF2">AI agents</text><rect x="156" y="262" width="91" height="30" rx="15" fill="#1B1528" stroke="#3A2D57"/><circle cx="170" cy="277" r="3.5" fill="#9B7BD0"/><text x="180" y="282" font-size="13" fill="#D8CCF2">Voice AI</text><rect x="257" y="262" width="106" height="30" rx="15" fill="#1B1528" stroke="#3A2D57"/><circle cx="271" cy="277" r="3.5" fill="#9B7BD0"/><text x="281" y="282" font-size="13" fill="#D8CCF2">Automation</text><rect x="373" y="262" width="106" height="30" rx="15" fill="#1B1528" stroke="#3A2D57"/><circle cx="387" cy="277" r="3.5" fill="#9B7BD0"/><text x="397" y="282" font-size="13" fill="#D8CCF2">Full-stack</text>
+
+<rect x="604" y="34" width="360" height="272" rx="16" fill="#161125" stroke="#2E2448"/>
+<circle class="blink" cx="628" cy="60" r="5" fill="#FF5C7A"/>
+<text x="642" y="65" font-size="12" font-weight="700" letter-spacing="2" fill="#FFB3C1">LIVE CALL</text>
+<text x="940" y="65" font-size="12" text-anchor="end" fill="#8D84A8">AI agent speaking</text>
+<rect class="bar" x="626" y="91" width="4" height="10" rx="2" fill="#9B7BD0" style="animation-delay:0.00s"/><rect class="bar" x="634" y="87" width="4" height="18" rx="2" fill="#9B7BD0" style="animation-delay:0.08s"/><rect class="bar" x="642" y="83" width="4" height="26" rx="2" fill="#9B7BD0" style="animation-delay:0.16s"/><rect class="bar" x="650" y="89" width="4" height="14" rx="2" fill="#9B7BD0" style="animation-delay:0.24s"/><rect class="bar" x="658" y="81" width="4" height="30" rx="2" fill="#9B7BD0" style="animation-delay:0.32s"/><rect class="bar" x="666" y="85" width="4" height="22" rx="2" fill="#9B7BD0" style="animation-delay:0.40s"/><rect class="bar" x="674" y="90" width="4" height="12" rx="2" fill="#9B7BD0" style="animation-delay:0.48s"/><rect class="bar" x="682" y="82" width="4" height="28" rx="2" fill="#9B7BD0" style="animation-delay:0.56s"/><rect class="bar" x="690" y="86" width="4" height="20" rx="2" fill="#9B7BD0" style="animation-delay:0.64s"/><rect class="bar" x="698" y="88" width="4" height="16" rx="2" fill="#9B7BD0" style="animation-delay:0.72s"/><rect class="bar" x="706" y="81" width="4" height="30" rx="2" fill="#9B7BD0" style="animation-delay:0.80s"/><rect class="bar" x="714" y="84" width="4" height="24" rx="2" fill="#9B7BD0" style="animation-delay:0.88s"/><rect class="bar" x="722" y="90" width="4" height="12" rx="2" fill="#9B7BD0" style="animation-delay:0.96s"/><rect class="bar" x="730" y="83" width="4" height="26" rx="2" fill="#9B7BD0" style="animation-delay:1.04s"/><rect class="bar" x="738" y="87" width="4" height="18" rx="2" fill="#9B7BD0" style="animation-delay:1.12s"/><rect class="bar" x="746" y="81" width="4" height="30" rx="2" fill="#9B7BD0" style="animation-delay:1.20s"/><rect class="bar" x="754" y="89" width="4" height="14" rx="2" fill="#9B7BD0" style="animation-delay:1.28s"/><rect class="bar" x="762" y="85" width="4" height="22" rx="2" fill="#9B7BD0" style="animation-delay:1.36s"/><rect class="bar" x="770" y="82" width="4" height="28" rx="2" fill="#9B7BD0" style="animation-delay:1.44s"/><rect class="bar" x="778" y="90" width="4" height="12" rx="2" fill="#9B7BD0" style="animation-delay:1.52s"/><rect class="bar" x="786" y="86" width="4" height="20" rx="2" fill="#9B7BD0" style="animation-delay:1.60s"/><rect class="bar" x="794" y="88" width="4" height="16" rx="2" fill="#9B7BD0" style="animation-delay:1.68s"/>
+
+<g class="m m1"><rect x="624" y="120" width="246" height="34" rx="12" fill="#2A2340"/>
+<text x="638" y="142" font-size="14" fill="#E9E4F7">Hi, can I get a bin on Friday?</text></g>
+
+<g class="m typing"><rect x="880" y="164" width="60" height="30" rx="12" fill="#5E3F86"/>
+<circle class="dot" cx="897" cy="179" r="3.5" fill="#fff"/><circle class="dot" cx="910" cy="179" r="3.5" fill="#fff" style="animation-delay:.15s"/><circle class="dot" cx="923" cy="179" r="3.5" fill="#fff" style="animation-delay:.3s"/></g>
+
+<g class="m m2"><rect x="676" y="164" width="264" height="34" rx="12" fill="url(#agent)"/>
+<text x="690" y="186" font-size="14" fill="#fff">Sure! What are you throwing out?</text></g>
+
+<g class="m m3"><rect x="624" y="208" width="252" height="34" rx="12" fill="#2A2340"/>
+<text x="638" y="230" font-size="14" fill="#E9E4F7">Old furniture and some drywall.</text></g>
+
+<g class="m m4"><rect x="624" y="254" width="316" height="36" rx="10" fill="#0F2A22" stroke="#2E7D5B"/>
+<path d="M640 272 l5 5 l10 -11" fill="none" stroke="#4ADE80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="664" y="277" font-size="13" fill="#8FE3B9">Order sent to the team, summary texted</text></g>
+</svg>
