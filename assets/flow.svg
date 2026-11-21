@@ -1,48 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 268" width="1000" height="268" role="img" aria-label="Customer calls, chats or texts; the AI agent answers and takes the order; systems are updated; the team gets a summary.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 214" width="1000" height="214" role="img" aria-label="A customer calls, chats or texts; the AI agent answers and takes the order; systems are updated; the team gets a summary.">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171127"/><stop offset="1" stop-color="#0B0912"/></linearGradient>
-  <radialGradient id="glow" cx="0.85" cy="0.05" r="0.75"><stop offset="0" stop-color="#9B7BD0" stop-opacity="0.42"/><stop offset="1" stop-color="#9B7BD0" stop-opacity="0"/></radialGradient>
-  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity="0.055"/></pattern>
-  <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#EBDDFF"/><stop offset="1" stop-color="#9B7BD0"/></linearGradient>
-  <linearGradient id="agent" x1="0" x2="1"><stop offset="0" stop-color="#6E47A6"/><stop offset="1" stop-color="#8F63A7"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151922"/><stop offset="1" stop-color="#10131A"/></linearGradient>
+  <linearGradient id="agent" x1="0" x2="1"><stop offset="0" stop-color="#6E4FA8"/><stop offset="1" stop-color="#8462B8"/></linearGradient>
 </defs>
 <style>
   text { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; }
-  .blink { animation: blink 1.6s ease-in-out infinite; }
-  @keyframes blink { 50% { opacity: .25; } }
+  .blink { animation: blink 1.8s ease-in-out infinite; }
+  @keyframes blink { 50% { opacity: .3; } }
   
   .pulse { animation: pulse 2.2s ease-in-out infinite; }
   @keyframes pulse { 0%,100% { stroke-opacity: 1; } 50% { stroke-opacity: .35; } }
 </style>
-<rect x="1" y="1" width="998" height="266" rx="20" fill="url(#bg)" stroke="#2E2448"/>
-<rect x="1" y="1" width="998" height="266" rx="20" fill="url(#dots)"/>
-<rect x="1" y="1" width="998" height="266" rx="20" fill="url(#glow)"/>
-
-<text x="40" y="50" font-size="13" font-weight="700" letter-spacing="3" fill="#B9A8D9">WHAT HAPPENS WHEN A CUSTOMER GETS IN TOUCH</text>
-<path d="M218 128 L280 128" stroke="#3A2D57" stroke-width="2"/><path d="M273 123 L280 128 L273 133" fill="none" stroke="#5B4A80" stroke-width="2"/><circle r="4" fill="#9B7BD0"><animateMotion dur="1.65s" begin="0.00s" repeatCount="indefinite" path="M218 128 L274 128"/></circle><circle r="4" fill="#9B7BD0"><animateMotion dur="1.65s" begin="0.55s" repeatCount="indefinite" path="M218 128 L274 128"/></circle><circle r="4" fill="#9B7BD0"><animateMotion dur="1.65s" begin="1.10s" repeatCount="indefinite" path="M218 128 L274 128"/></circle><path d="M468 128 L530 128" stroke="#3A2D57" stroke-width="2"/><path d="M523 123 L530 128 L523 133" fill="none" stroke="#5B4A80" stroke-width="2"/><circle r="4" fill="#3FB6A8"><animateMotion dur="1.65s" begin="0.35s" repeatCount="indefinite" path="M468 128 L524 128"/></circle><circle r="4" fill="#3FB6A8"><animateMotion dur="1.65s" begin="0.90s" repeatCount="indefinite" path="M468 128 L524 128"/></circle><circle r="4" fill="#3FB6A8"><animateMotion dur="1.65s" begin="1.45s" repeatCount="indefinite" path="M468 128 L524 128"/></circle><path d="M718 128 L780 128" stroke="#3A2D57" stroke-width="2"/><path d="M773 123 L780 128 L773 133" fill="none" stroke="#5B4A80" stroke-width="2"/><circle r="4" fill="#5AA9F0"><animateMotion dur="1.65s" begin="0.70s" repeatCount="indefinite" path="M718 128 L774 128"/></circle><circle r="4" fill="#5AA9F0"><animateMotion dur="1.65s" begin="1.25s" repeatCount="indefinite" path="M718 128 L774 128"/></circle><circle r="4" fill="#5AA9F0"><animateMotion dur="1.65s" begin="1.80s" repeatCount="indefinite" path="M718 128 L774 128"/></circle>
-<rect x="40" y="84" width="170" height="112" rx="16" fill="#161125" stroke="#2E2448"/>
-<circle cx="74" cy="128" r="20" fill="#F2A93B" fill-opacity="0.22" stroke="#F2A93B" stroke-opacity="0.6"/>
-<path d="M64 120 h20 a4 4 0 0 1 4 4 v9 a4 4 0 0 1 -4 4 h-11 l-6 5 v-5 h-3 a4 4 0 0 1 -4 -4 v-9 a4 4 0 0 1 4 -4z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
-<text x="104" y="134" font-size="17" font-weight="700" fill="#F4F0FF">Customer</text>
-<text x="58" y="170" font-size="12.5" fill="#B7AFCB">calls, chats on the</text>
-<text x="58" y="187" font-size="12.5" fill="#B7AFCB">website or texts</text>
-<rect x="290" y="84" width="170" height="112" rx="16" fill="#161125" stroke="#9B7BD0" class="pulse"/>
-<circle cx="324" cy="128" r="20" fill="#9B7BD0" fill-opacity="0.22" stroke="#9B7BD0" stroke-opacity="0.6"/>
-<rect x="313" y="121" width="22" height="17" rx="5" fill="none" stroke="#fff" stroke-width="2"/><circle cx="319.5" cy="129" r="2" fill="#fff"/><circle cx="328.5" cy="129" r="2" fill="#fff"/><path d="M324 121 v-5" stroke="#fff" stroke-width="2"/><circle cx="324" cy="115" r="2" fill="#fff"/>
-<text x="354" y="134" font-size="17" font-weight="700" fill="#F4F0FF">AI agent</text>
-<text x="308" y="170" font-size="12.5" fill="#B7AFCB">understands, answers,</text>
-<text x="308" y="187" font-size="12.5" fill="#B7AFCB">takes the order</text>
-<rect x="540" y="84" width="170" height="112" rx="16" fill="#161125" stroke="#2E2448"/>
-<circle cx="574" cy="128" r="20" fill="#3FB6A8" fill-opacity="0.22" stroke="#3FB6A8" stroke-opacity="0.6"/>
-<ellipse cx="574" cy="121" rx="10" ry="4" fill="none" stroke="#fff" stroke-width="2"/><path d="M564 121 v13 a10 4 0 0 0 20 0 v-13 M564 127.5 a10 4 0 0 0 20 0" fill="none" stroke="#fff" stroke-width="2"/>
-<text x="604" y="134" font-size="17" font-weight="700" fill="#F4F0FF">Systems</text>
-<text x="558" y="170" font-size="12.5" fill="#B7AFCB">order created, details</text>
-<text x="558" y="187" font-size="12.5" fill="#B7AFCB">saved, tracking sent</text>
-<rect x="790" y="84" width="170" height="112" rx="16" fill="#161125" stroke="#2E2448"/>
-<circle cx="824" cy="128" r="20" fill="#5AA9F0" fill-opacity="0.22" stroke="#5AA9F0" stroke-opacity="0.6"/>
-<circle cx="819" cy="123" r="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="831" cy="125" r="3.2" fill="none" stroke="#fff" stroke-width="2"/><path d="M811 138 a8 7 0 0 1 16 0 M826 137 a6 5.5 0 0 1 11 0" fill="none" stroke="#fff" stroke-width="2"/>
-<text x="854" y="134" font-size="17" font-weight="700" fill="#F4F0FF">Team</text>
-<text x="808" y="170" font-size="12.5" fill="#B7AFCB">gets a ready-to-act</text>
-<text x="808" y="187" font-size="12.5" fill="#B7AFCB">summary by text, email</text>
-<text x="500" y="238" font-size="13" text-anchor="middle" fill="#8D84A8">Hands off to a person when needed   ·   Every conversation reviewed by AI   ·   Works around the clock</text>
+<rect x="0.5" y="0.5" width="999" height="213" rx="14" fill="url(#bg)" stroke="#2A303C"/>
+<path d="M218 80 L280 80" stroke="#343B49" stroke-width="2"/><path d="M273 75 L280 80 L273 85" fill="none" stroke="#4A5263" stroke-width="2"/><circle r="3.5" fill="#9B7BD0" visibility="hidden"><set attributeName="visibility" to="visible" begin="0.00s"/><animateMotion dur="1.65s" begin="0.00s" repeatCount="indefinite" path="M218 80 L274 80"/></circle><circle r="3.5" fill="#9B7BD0" visibility="hidden"><set attributeName="visibility" to="visible" begin="0.55s"/><animateMotion dur="1.65s" begin="0.55s" repeatCount="indefinite" path="M218 80 L274 80"/></circle><circle r="3.5" fill="#9B7BD0" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.10s"/><animateMotion dur="1.65s" begin="1.10s" repeatCount="indefinite" path="M218 80 L274 80"/></circle><path d="M468 80 L530 80" stroke="#343B49" stroke-width="2"/><path d="M523 75 L530 80 L523 85" fill="none" stroke="#4A5263" stroke-width="2"/><circle r="3.5" fill="#3FB6A8" visibility="hidden"><set attributeName="visibility" to="visible" begin="0.35s"/><animateMotion dur="1.65s" begin="0.35s" repeatCount="indefinite" path="M468 80 L524 80"/></circle><circle r="3.5" fill="#3FB6A8" visibility="hidden"><set attributeName="visibility" to="visible" begin="0.90s"/><animateMotion dur="1.65s" begin="0.90s" repeatCount="indefinite" path="M468 80 L524 80"/></circle><circle r="3.5" fill="#3FB6A8" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.45s"/><animateMotion dur="1.65s" begin="1.45s" repeatCount="indefinite" path="M468 80 L524 80"/></circle><path d="M718 80 L780 80" stroke="#343B49" stroke-width="2"/><path d="M773 75 L780 80 L773 85" fill="none" stroke="#4A5263" stroke-width="2"/><circle r="3.5" fill="#5AA9F0" visibility="hidden"><set attributeName="visibility" to="visible" begin="0.70s"/><animateMotion dur="1.65s" begin="0.70s" repeatCount="indefinite" path="M718 80 L774 80"/></circle><circle r="3.5" fill="#5AA9F0" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.25s"/><animateMotion dur="1.65s" begin="1.25s" repeatCount="indefinite" path="M718 80 L774 80"/></circle><circle r="3.5" fill="#5AA9F0" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.80s"/><animateMotion dur="1.65s" begin="1.80s" repeatCount="indefinite" path="M718 80 L774 80"/></circle>
+<rect x="40" y="36" width="170" height="112" rx="12" fill="#191E28" stroke="#2A303C"/>
+<circle cx="74" cy="80" r="20" fill="#E8A33D" fill-opacity="0.18" stroke="#E8A33D" stroke-opacity="0.55"/>
+<path d="M64 72 h20 a4 4 0 0 1 4 4 v9 a4 4 0 0 1 -4 4 h-11 l-6 5 v-5 h-3 a4 4 0 0 1 -4 -4 v-9 a4 4 0 0 1 4 -4z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+<text x="104" y="86" font-size="16.5" font-weight="700" fill="#F2F4F8">Customer</text>
+<text x="58" y="122" font-size="12.5" fill="#B4BAC6">calls, chats on the</text>
+<text x="58" y="139" font-size="12.5" fill="#B4BAC6">website or texts</text>
+<rect x="290" y="36" width="170" height="112" rx="12" fill="#191E28" stroke="#9B7BD0" class="pulse"/>
+<circle cx="324" cy="80" r="20" fill="#9B7BD0" fill-opacity="0.18" stroke="#9B7BD0" stroke-opacity="0.55"/>
+<rect x="313" y="73" width="22" height="17" rx="5" fill="none" stroke="#fff" stroke-width="2"/><circle cx="319.5" cy="81" r="2" fill="#fff"/><circle cx="328.5" cy="81" r="2" fill="#fff"/><path d="M324 73 v-5" stroke="#fff" stroke-width="2"/><circle cx="324" cy="67" r="2" fill="#fff"/>
+<text x="354" y="86" font-size="16.5" font-weight="700" fill="#F2F4F8">AI agent</text>
+<text x="308" y="122" font-size="12.5" fill="#B4BAC6">understands, answers,</text>
+<text x="308" y="139" font-size="12.5" fill="#B4BAC6">takes the order</text>
+<rect x="540" y="36" width="170" height="112" rx="12" fill="#191E28" stroke="#2A303C"/>
+<circle cx="574" cy="80" r="20" fill="#3FB6A8" fill-opacity="0.18" stroke="#3FB6A8" stroke-opacity="0.55"/>
+<ellipse cx="574" cy="73" rx="10" ry="4" fill="none" stroke="#fff" stroke-width="2"/><path d="M564 73 v13 a10 4 0 0 0 20 0 v-13 M564 79.5 a10 4 0 0 0 20 0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="604" y="86" font-size="16.5" font-weight="700" fill="#F2F4F8">Systems</text>
+<text x="558" y="122" font-size="12.5" fill="#B4BAC6">order created, details</text>
+<text x="558" y="139" font-size="12.5" fill="#B4BAC6">saved, tracking sent</text>
+<rect x="790" y="36" width="170" height="112" rx="12" fill="#191E28" stroke="#2A303C"/>
+<circle cx="824" cy="80" r="20" fill="#5AA9F0" fill-opacity="0.18" stroke="#5AA9F0" stroke-opacity="0.55"/>
+<circle cx="819" cy="75" r="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="831" cy="77" r="3.2" fill="none" stroke="#fff" stroke-width="2"/><path d="M811 90 a8 7 0 0 1 16 0 M826 89 a6 5.5 0 0 1 11 0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="854" y="86" font-size="16.5" font-weight="700" fill="#F2F4F8">Team</text>
+<text x="808" y="122" font-size="12.5" fill="#B4BAC6">gets a ready-to-act</text>
+<text x="808" y="139" font-size="12.5" fill="#B4BAC6">summary by text, email</text>
+<text x="500" y="186" font-size="13" text-anchor="middle" fill="#8B93A3">Hands off to a person when needed   ·   Every conversation reviewed by AI   ·   Works around the clock</text>
 </svg>
