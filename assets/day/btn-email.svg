@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146 53" width="146" height="53" role="img" aria-label="Email me">
+<title>Email me</title>
+<style>
+  .tw { animation-name: tw; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-direction: alternate; }
+  @keyframes tw { from { opacity: var(--min, .12); } to { opacity: 1; } }
+  .rise { animation: rise .9s cubic-bezier(.2,.7,0,1) both; }
+  .r2 { animation-delay: .12s; } .r3 { animation-delay: .3s; } .r4 { animation-delay: .45s; }
+  @keyframes rise { from { transform: translateY(16px); } to { transform: none; } }
+  .fade { animation: fade 1s ease .5s both; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x="6" y="6" width="139" height="46" fill="#9DB0E8"/><rect x="1" y="1" width="139" height="46" fill="#0E1324" stroke="#0E1324" stroke-width="2"/><rect x="1" y="1" width="4" height="4" fill="#FFFFFF"/><rect x="136" y="1" width="4" height="4" fill="#FFFFFF"/><rect x="1" y="43" width="4" height="4" fill="#FFFFFF"/><rect x="136" y="43" width="4" height="4" fill="#FFFFFF"/><path fill="#FFFFFF" d="M30.6 30.3L25.6 30.3L25.6 28.8L24.0 28.8L24.0 20.8L25.6 20.8L25.6 19.3L30.6 19.3L30.6 20.8L32.1 20.8L32.1 22.9L30.1 22.9L30.1 21.4L26.0 21.4L26.0 23.8L29.1 23.8L29.1 25.9L26.0 25.9L26.0 28.2L30.1 28.2L30.1 26.7L32.1 26.7L32.1 28.8L30.6 28.8L30.6 30.3ZM36.7 30.3L34.7 30.3L34.7 22.3L39.7 22.3L39.7 23.8L40.7 23.8L40.7 22.3L44.3 22.3L44.3 23.8L45.8 23.8L45.8 30.3L43.8 30.3L43.8 24.4L41.2 24.4L41.2 30.3L39.2 30.3L39.2 24.4L36.7 24.4L36.7 30.3ZM54.8 30.3L49.7 30.3L49.7 28.8L48.2 28.8L48.2 23.8L49.7 23.8L49.7 22.3L54.8 22.3L54.8 23.8L56.3 23.8L56.3 28.2L57.8 28.2L57.8 30.3L55.8 30.3L55.8 28.8L54.8 28.8L54.8 30.3ZM50.2 24.4L50.2 28.2L54.3 28.2L54.3 24.4L50.2 24.4ZM61.9 30.3L59.9 30.3L59.9 22.3L61.9 22.3L61.9 30.3ZM61.9 21.4L59.9 21.4L59.9 19.3L61.9 19.3L61.9 21.4ZM66.5 30.3L64.5 30.3L64.5 19.3L66.5 19.3L66.5 30.3ZM75.0 30.3L73.0 30.3L73.0 22.3L78.0 22.3L78.0 23.8L79.0 23.8L79.0 22.3L82.6 22.3L82.6 23.8L84.1 23.8L84.1 30.3L82.1 30.3L82.1 24.4L79.5 24.4L79.5 30.3L77.5 30.3L77.5 24.4L75.0 24.4L75.0 30.3ZM93.0 30.3L88.0 30.3L88.0 28.8L86.5 28.8L86.5 23.8L88.0 23.8L88.0 22.3L93.0 22.3L93.0 23.8L94.6 23.8L94.6 25.9L92.5 25.9L92.5 24.4L88.5 24.4L88.5 25.2L91.5 25.2L91.5 27.3L88.5 27.3L88.5 28.2L92.5 28.2L92.5 26.7L94.6 26.7L94.6 28.8L93.0 28.8L93.0 30.3Z"/><path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" d="M104.607 29L115.607 18M107.907 18H115.607V25.7"/>
+</svg>
