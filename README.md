@@ -76,7 +76,6 @@
 </p>
 
 <p>
-<a href="https://wolfdrivers.com">
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/shots-wolfdrivers.jpg">
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/shots-wolfdrivers.jpg">
