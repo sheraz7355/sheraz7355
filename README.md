@@ -65,14 +65,12 @@
 </p>
 
 <p>
-
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/wolfdrivers.svg">
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/wolfdrivers.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/wolfdrivers.svg">
   <img src="assets/day/wolfdrivers.svg" width="100%" alt="03. WolfDrivers. Ran in production. The platform a delivery business ran on: a web app for dispatch, a mobile app for drivers, managers and stores, and an AI phone agent that took customer orders. Role: Software engineer. Built: Dispatch web app, mobile app, AI phone ordering, automations. Stack: React, React Native (Expo), Supabase, Firebase, PostgreSQL.">
 </picture>
-</a>
 </p>
 
 <p>
@@ -82,7 +80,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/shots-wolfdrivers.jpg">
   <img src="assets/day/shots-wolfdrivers.jpg" width="100%" alt="WolfDrivers screenshots: the dispatch web app and the mobile app, driver and admin screens, with sample data.">
 </picture>
-</a>
 </p>
 
 <p>
@@ -92,6 +89,17 @@
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/solarkon.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/solarkon.svg">
   <img src="assets/day/solarkon.svg" width="100%" alt="04. SolarKon. Live. The website of a solar energy company: its services, projects, a product store and financing, with an admin panel where the team edits every page themselves. Role: Web developer, freelance. Built: Company website, product store, admin panel. Stack: Laravel, PHP, Inertia, React, Tailwind CSS.">
+</picture>
+</a>
+</p>
+
+<p>
+<a href="http://solarkon.org">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/shots-solarkon.jpg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/shots-solarkon.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/shots-solarkon.jpg">
+  <img src="assets/day/shots-solarkon.jpg" width="100%" alt="SolarKon screenshots: the website on desktop and phone, and the admin panel.">
 </picture>
 </a>
 </p>

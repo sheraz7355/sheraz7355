@@ -7,9 +7,9 @@ const { PROJECTS } = require('./sections.cjs');
 
 const RAW = 'https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/';
 const EMAIL = 'muhammadsheraz7355@gmail.com';
+// WolfDrivers has no link on purpose (it was removed by hand on GitHub on 23 Nov 2026).
 const LINKS = {
   sulehri: 'https://github.com/sheraz7355/Sulehri',
-  wolfdrivers: 'https://wolfdrivers.com',
   solarkon: 'http://solarkon.org',
   'telemetry-pro': 'https://github.com/sheraz7355/TELEMETRY-PRO',
 };
