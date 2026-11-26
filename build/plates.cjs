@@ -10,7 +10,7 @@ const { THEMES, root } = require('./lib.cjs');
 const SHOTS = path.join(root, 'site', 'shots');
 const font = (pkg, file) => `file://${path.join(root, 'node_modules/@fontsource', pkg, 'files', file)}`;
 
-// x, y, w in desktop px (1000 wide). kind: 'web' (browser frame), 'phone', 'window' (a chat window)
+// x, y, w in desktop px (1000 wide). kind: 'web' (browser frame), 'mac' (window bar), 'plain' (no bar), 'phone', 'window' (a chat window)
 const PLATES = [
   { key: 'always-answer', caption: 'The owner dashboard (calls, one call, costs) and the website chat, all with sample data.', h: 846, items: [
     { kind: 'web', img: 'aa-01-calls.jpg', x: 36, y: 36, w: 660 },
@@ -26,9 +26,9 @@ const PLATES = [
     { kind: 'phone', img: 'wdm-02-delivery-detail.jpg', x: 622, y: 432, w: 164 },
     { kind: 'phone', img: 'wdm-04-admin-orders.jpg', x: 800, y: 432, w: 164 },
   ] },
-  { key: 'sulehri', caption: 'Sulehri teaching on a real screen: marks, a sketch, and the lesson board.', h: 700, items: [
-    { kind: 'mac', img: 'sulehri-01-pencil.jpg', x: 36, y: 36, w: 600 },
-    { kind: 'mac', img: 'sulehri-03-board.jpg', x: 520, y: 300, w: 444 },
+  { key: 'sulehri', caption: 'Sulehri teaching binary search on a sample lesson page: marks and a sketch drawn on the screen, and the lesson board.', h: 782, items: [
+    { kind: 'plain', img: 'sulehri-01-pencil.jpg', x: 36, y: 36, w: 928 },
+    { kind: 'mac', img: 'sulehri-03-board.jpg', x: 494, y: 422, w: 470 },
   ] },
   { key: 'solarkon', caption: 'The SolarKon website on desktop and phone, and the admin panel.', h: 820, items: [
     { kind: 'web', img: 'solarkon-01-home.jpg', x: 36, y: 36, w: 700 },
@@ -81,7 +81,8 @@ function html(T, p, mobile) {
   } else {
     // phones: browsers and Mac screens stacked full width, phones and windows two per row
     W = 480; let y = 22; inner = '';
-    const big = p.items.filter((it) => it.kind === 'web' || it.kind === 'mac'), small = p.items.filter((it) => !(it.kind === 'web' || it.kind === 'mac'));
+    const isBig = (it) => ['web', 'mac', 'plain'].includes(it.kind);
+    const big = p.items.filter(isBig), small = p.items.filter((it) => !isBig(it));
     big.forEach((it) => { inner += frame(it, `left:20px;top:${y}px;width:432px`); y += it.h_m + 30; });
     for (let k = 0; k < small.length; k += 2) {
       const row = small.slice(k, k + 2);

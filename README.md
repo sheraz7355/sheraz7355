@@ -65,6 +65,17 @@
 </p>
 
 <p>
+<a href="https://github.com/sheraz7355/Sulehri">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/shots-sulehri.jpg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/shots-sulehri.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/shots-sulehri.jpg">
+  <img src="assets/day/shots-sulehri.jpg" width="100%" alt="Sulehri screenshots: marks and a sketch drawn on the screen during a binary search lesson, and the lesson board.">
+</picture>
+</a>
+</p>
+
+<p>
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/wolfdrivers.svg">
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/wolfdrivers.svg">

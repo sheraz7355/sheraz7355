@@ -45,7 +45,7 @@ for (const p of PROJECTS) {
   if (exists(`assets/day/${shots}`)) {
     const cap = { 'always-answer': 'Always Answer screenshots: the owner dashboard (calls list, one call, costs) and the website chat, with sample data.',
       wolfdrivers: 'WolfDrivers screenshots: the dispatch web app and the mobile app, driver and admin screens, with sample data.',
-      sulehri: 'Sulehri screenshots: marks and a sketch drawn on a real screen, and the lesson board.',
+      sulehri: 'Sulehri screenshots: marks and a sketch drawn on the screen during a binary search lesson, and the lesson board.',
       solarkon: 'SolarKon screenshots: the website on desktop and phone, and the admin panel.',
       'telemetry-pro': 'Telemetry Pro screenshot: the telemetry dashboard with demo data.' }[p.key];
     parts.push(block(picture(shots, { alt: cap }), LINKS[p.key]));
