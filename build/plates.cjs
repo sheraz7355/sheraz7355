@@ -12,19 +12,19 @@ const font = (pkg, file) => `file://${path.join(root, 'node_modules/@fontsource'
 
 // x, y, w in desktop px (1000 wide). kind: 'web' (browser frame), 'mac' (window bar), 'plain' (no bar), 'phone', 'window' (a chat window)
 const PLATES = [
-  { key: 'always-answer', caption: 'The owner dashboard (calls, one call, costs) and the website chat, all with sample data.', h: 846, items: [
-    { kind: 'web', img: 'aa-01-calls.jpg', x: 36, y: 36, w: 660 },
-    { kind: 'window', img: 'chat.jpg', x: 724, y: 36, w: 240 },
-    { kind: 'web', img: 'aa-02-call-detail.jpg', x: 36, y: 500, w: 452 },
-    { kind: 'web', img: 'aa-05-costs.jpg', x: 512, y: 500, w: 452 },
+  { key: 'ai-receptionist', caption: 'The owner dashboard (calls, one call, costs) and the website chat, all with sample data.', h: 846, items: [
+    { kind: 'web', img: 'recep-01-calls.jpg', x: 36, y: 36, w: 660 },
+    { kind: 'window', img: 'recep-chat.jpg', x: 724, y: 36, w: 240 },
+    { kind: 'web', img: 'recep-02-call-detail.jpg', x: 36, y: 500, w: 452 },
+    { kind: 'web', img: 'recep-05-costs.jpg', x: 512, y: 500, w: 452 },
   ] },
-  { key: 'wolfdrivers', caption: 'The dispatch web app and the mobile app (driver and admin screens), with sample data.', h: 846, items: [
-    { kind: 'web', img: 'wd-01-dispatch.jpg', x: 36, y: 36, w: 560 },
-    { kind: 'web', img: 'wd-02-order-detail.jpg', x: 36, y: 432, w: 560 },
-    { kind: 'phone', img: 'wdm-01-driver-deliveries.jpg', x: 622, y: 36, w: 164 },
-    { kind: 'phone', img: 'wdm-03-admin-dashboard.jpg', x: 800, y: 36, w: 164 },
-    { kind: 'phone', img: 'wdm-02-delivery-detail.jpg', x: 622, y: 432, w: 164 },
-    { kind: 'phone', img: 'wdm-04-admin-orders.jpg', x: 800, y: 432, w: 164 },
+  { key: 'delivery-platform', caption: 'The dispatch web app and the mobile app (driver and admin screens), with sample data.', h: 846, items: [
+    { kind: 'web', img: 'deliv-01-dispatch.jpg', x: 36, y: 36, w: 560 },
+    { kind: 'web', img: 'deliv-02-order-detail.jpg', x: 36, y: 432, w: 560 },
+    { kind: 'phone', img: 'delivm-01-driver-deliveries.jpg', x: 622, y: 36, w: 164 },
+    { kind: 'phone', img: 'delivm-03-admin-dashboard.jpg', x: 800, y: 36, w: 164 },
+    { kind: 'phone', img: 'delivm-02-delivery-detail.jpg', x: 622, y: 432, w: 164 },
+    { kind: 'phone', img: 'delivm-04-admin-orders.jpg', x: 800, y: 432, w: 164 },
   ] },
   { key: 'sulehri', caption: 'Sulehri teaching binary search on a sample lesson page: marks and a sketch drawn on the screen, and the lesson board.', h: 782, items: [
     { kind: 'plain', img: 'sulehri-01-pencil.jpg', x: 36, y: 36, w: 928 },

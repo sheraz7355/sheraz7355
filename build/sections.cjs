@@ -81,7 +81,7 @@ const PANEL_CSS = `.psweep { animation: psweep 7s linear infinite; } @keyframes 
 
 // ---------------------------------------------------------------- the five illustrations
 const ILLOS = {
-  alwaysAnswer(T, A) {
+  receptionist(T, A) {
     const ink = T.litInk, muted = T.panelDot2;
     let s = '';
     // the caller's phone, with a voice inside
@@ -124,7 +124,7 @@ const ILLOS = {
     [0, 1, 2].forEach((k) => { s += `<g class="bar" style="animation-delay:${-k * .25}s">${rectC(43 + k * 2, 44, 43 + k * 2, 46, T.lit)}</g>`; });
     return s;
   },
-  wolfDrivers(T, A) {
+  delivery(T, A) {
     const street = T.panelDot2;
     let s = '';
     [6, 18, 30, 42].forEach((j) => { s += rectC(2, j, 60, j, street); });
@@ -203,13 +203,13 @@ const ROAD_CSS = `.road { animation: road .9s linear infinite; } @keyframes road
 
 // ---------------------------------------------------------------- projects
 const PROJECTS = [
-  { key: 'always-answer', illo: 'alwaysAnswer', no: '01', status: 'In production', title: 'Always Answer',
-    desc: 'AI agents that answer phone calls, website chats and text messages for businesses in Canada, around the clock. When a customer needs the team, the agent sends them a short summary by text and email.',
+  { key: 'ai-receptionist', illo: 'receptionist', no: '01', status: 'In production', title: 'AI Receptionist',
+    desc: 'AI agents that answer phone calls, website chats and text messages for small businesses, around the clock. When a customer needs the team, the agent sends them a short summary by text and email.',
     meta: [['Role', 'Software engineer'], ['Built', 'Voice agents, website chat, team alerts, owner dashboard'], ['Stack', 'TypeScript, Node.js, OpenAI Realtime, Claude, Next.js, NestJS, Firebase']] },
   { key: 'sulehri', illo: 'sulehri', no: '02', status: 'My own project', title: 'Sulehri', link: 'View the code',
     desc: 'An AI tutor that lives next to your mouse on the Mac. Hold two keys and ask out loud: it explains in simple words, by voice, while it points, underlines and draws on your actual screen.',
     meta: [['Role', 'Designer and developer'], ['Built', 'Mac app, live drawing on the screen, voice in and out, lesson board'], ['Stack', 'Swift, AppKit, Speech, WebKit, Claude, Kokoro voice']] },
-  { key: 'wolfdrivers', illo: 'wolfDrivers', no: '03', status: 'Ran in production', title: 'WolfDrivers', link: 'wolfdrivers.com',
+  { key: 'delivery-platform', illo: 'delivery', no: '03', status: 'Ran in production', title: 'Delivery Platform',
     desc: 'The platform a delivery business ran on: a web app for dispatch, a mobile app for drivers, managers and stores, and an AI phone agent that took customer orders.',
     meta: [['Role', 'Software engineer'], ['Built', 'Dispatch web app, mobile app, AI phone ordering, automations'], ['Stack', 'React, React Native (Expo), Supabase, Firebase, PostgreSQL']] },
   { key: 'solarkon', illo: 'solarKon', no: '04', status: 'Live', title: 'SolarKon', link: 'solarkon.org',
@@ -282,16 +282,16 @@ function header(T, lab, title, intro, mobile, { id = 'h' } = {}) {
 }
 
 // ---------------------------------------------------------------- about
-const ABOUT_TITLE = 'I build AI agents, and the systems that put them to work.';
+const ABOUT_TITLE = 'I build full-stack products: web, mobile, and the AI inside them.';
 const ABOUT = [
-  "I'm a software engineer in Lahore. Most of my work is AI agents that talk to customers for real businesses: voice agents that answer the phone, assistants that reply on websites and by text, and the automation that turns each conversation into an order, a request or a task for the team.",
-  'I also build the operations software those businesses run on, and my own tools, like Sulehri, an AI tutor for the Mac. What I care about is simple: systems that work in production, every day.',
+  "I'm a full-stack software engineer in Lahore. I build complete products end to end: the web app, the mobile app, the back end and database behind them, and the admin tools a team runs on its own. Recent work includes a delivery platform with dispatch and driver apps, and a company website with a store and an admin panel.",
+  'I also build AI agents that talk to customers for real businesses: voice agents that answer the phone, assistants that reply on websites and by text, and the automation that turns each conversation into an order or a task. What I care about is simple: systems that work in production, every day.',
 ];
 const FOCUS = [
-  ['Voice agents', 'Answer phone calls, take orders and requests, and hand off to a person when needed.'],
-  ['Chat and text assistants', 'Reply on websites and by text, collect the details, and alert the team.'],
-  ['Customer automation', 'Summaries, follow-up texts, emails and records after every conversation.'],
-  ['Operations software', 'Dispatch, delivery and admin tools that a business runs on daily.'],
+  ['Web apps', 'React and Next.js front ends, with Node, NestJS or Laravel behind them.'],
+  ['Mobile apps', 'React Native apps for drivers, managers and stores.'],
+  ['AI agents and automation', 'Voice, chat and text agents, and the follow-up work after every conversation.'],
+  ['Back end and data', 'APIs, PostgreSQL, Supabase and Firebase, and the admin tools a business runs on daily.'],
 ];
 function icon(T, x, y, k, R) {
   // a 4x4 block of dots that shimmers, a different pattern per item
@@ -319,7 +319,7 @@ function about(T, mobile) {
   let yl = y;
   ABOUT.forEach((t) => { const p = para(F.body, t, x, yl, bs, bl, colW, T.ink2); s += p.svg; yl += p.h + bl * 1.6; });
   let yr = mobile ? yl + 6 : y - bs * .8;
-  const rx = mobile ? x : 620, rw = mobile ? W - 2 * x - 48 : 340;
+  const rx = mobile ? x : 620, rw = mobile ? W - 2 * x - 48 : 312;
   FOCUS.forEach(([h, d], k) => {
     s += icon(T, rx, yr - 4, k, R);
     s += P(outline(F.label, h, rx + 46, yr + 12, mobile ? 19 : 16.5, { track: .02 }), T.ink);

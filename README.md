@@ -8,7 +8,7 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/hero.svg">
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/hero.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/hero.svg">
-  <img src="assets/day/hero.svg" width="100%" alt="Muhammad Sheraz. Software engineer, Lahore, Pakistan. I build AI agents that answer calls, chats and texts for real businesses, and the automation behind them.">
+  <img src="assets/day/hero.svg" width="100%" alt="Muhammad Sheraz. Full-stack software engineer, Lahore, Pakistan. I build web and mobile apps end to end, and the AI agents and automation that work inside them.">
 </picture>
 </p>
 
@@ -22,7 +22,7 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/about.svg">
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/about.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/about.svg">
-  <img src="assets/day/about.svg" width="100%" alt="About. I build AI agents, and the systems that put them to work. I'm a software engineer in Lahore. Most of my work is AI agents that talk to customers for real businesses: voice agents that answer the phone, assistants that reply on websites and by text, and the automation that turns each conversation into an order, a request or a task for the team. I also build the operations software those businesses run on, and my own tools, like Sulehri, an AI tutor for the Mac. What I care about is simple: systems that work in production, every day. Voice agents: Answer phone calls, take orders and requests, and hand off to a person when needed. Chat and text assistants: Reply on websites and by text, collect the details, and alert the team. Customer automation: Summaries, follow-up texts, emails and records after every conversation. Operations software: Dispatch, delivery and admin tools that a business runs on daily.">
+  <img src="assets/day/about.svg" width="100%" alt="About. I build full-stack products: web, mobile, and the AI inside them. I'm a full-stack software engineer in Lahore. I build complete products end to end: the web app, the mobile app, the back end and database behind them, and the admin tools a team runs on its own. Recent work includes a delivery platform with dispatch and driver apps, and a company website with a store and an admin panel. I also build AI agents that talk to customers for real businesses: voice agents that answer the phone, assistants that reply on websites and by text, and the automation that turns each conversation into an order or a task. What I care about is simple: systems that work in production, every day. Web apps: React and Next.js front ends, with Node, NestJS or Laravel behind them. Mobile apps: React Native apps for drivers, managers and stores. AI agents and automation: Voice, chat and text agents, and the follow-up work after every conversation. Back end and data: APIs, PostgreSQL, Supabase and Firebase, and the admin tools a business runs on daily.">
 </picture>
 </p>
 
@@ -37,19 +37,19 @@
 
 <p>
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/always-answer.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/always-answer.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/always-answer.svg">
-  <img src="assets/day/always-answer.svg" width="100%" alt="01. Always Answer. In production. AI agents that answer phone calls, website chats and text messages for businesses in Canada, around the clock. When a customer needs the team, the agent sends them a short summary by text and email. Role: Software engineer. Built: Voice agents, website chat, team alerts, owner dashboard. Stack: TypeScript, Node.js, OpenAI Realtime, Claude, Next.js, NestJS, Firebase.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/ai-receptionist.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/ai-receptionist.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/ai-receptionist.svg">
+  <img src="assets/day/ai-receptionist.svg" width="100%" alt="01. AI Receptionist. In production. AI agents that answer phone calls, website chats and text messages for small businesses, around the clock. When a customer needs the team, the agent sends them a short summary by text and email. Role: Software engineer. Built: Voice agents, website chat, team alerts, owner dashboard. Stack: TypeScript, Node.js, OpenAI Realtime, Claude, Next.js, NestJS, Firebase.">
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/shots-always-answer.jpg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/shots-always-answer.jpg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/shots-always-answer.jpg">
-  <img src="assets/day/shots-always-answer.jpg" width="100%" alt="Always Answer screenshots: the owner dashboard (calls list, one call, costs) and the website chat, with sample data.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/shots-ai-receptionist.jpg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/shots-ai-receptionist.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/shots-ai-receptionist.jpg">
+  <img src="assets/day/shots-ai-receptionist.jpg" width="100%" alt="AI Receptionist screenshots: the owner dashboard (calls list, one call, costs) and the website chat, with sample data.">
 </picture>
 </p>
 
@@ -77,19 +77,19 @@
 
 <p>
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/wolfdrivers.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/wolfdrivers.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/wolfdrivers.svg">
-  <img src="assets/day/wolfdrivers.svg" width="100%" alt="03. WolfDrivers. Ran in production. The platform a delivery business ran on: a web app for dispatch, a mobile app for drivers, managers and stores, and an AI phone agent that took customer orders. Role: Software engineer. Built: Dispatch web app, mobile app, AI phone ordering, automations. Stack: React, React Native (Expo), Supabase, Firebase, PostgreSQL.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/delivery-platform.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/delivery-platform.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/delivery-platform.svg">
+  <img src="assets/day/delivery-platform.svg" width="100%" alt="03. Delivery Platform. Ran in production. The platform a delivery business ran on: a web app for dispatch, a mobile app for drivers, managers and stores, and an AI phone agent that took customer orders. Role: Software engineer. Built: Dispatch web app, mobile app, AI phone ordering, automations. Stack: React, React Native (Expo), Supabase, Firebase, PostgreSQL.">
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/shots-wolfdrivers.jpg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/shots-wolfdrivers.jpg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/shots-wolfdrivers.jpg">
-  <img src="assets/day/shots-wolfdrivers.jpg" width="100%" alt="WolfDrivers screenshots: the dispatch web app and the mobile app, driver and admin screens, with sample data.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/m/shots-delivery-platform.jpg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/day/m/shots-delivery-platform.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheraz7355/sheraz7355/main/assets/night/shots-delivery-platform.jpg">
+  <img src="assets/day/shots-delivery-platform.jpg" width="100%" alt="Delivery Platform screenshots: the dispatch web app and the mobile app, driver and admin screens, with sample data.">
 </picture>
 </p>
 
